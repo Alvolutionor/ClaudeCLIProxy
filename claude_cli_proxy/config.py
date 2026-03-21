@@ -20,7 +20,7 @@ class ProxyConfig:
         if not self.git_bash_path:
             self.git_bash_path = os.environ.get(
                 "CLAUDE_CODE_GIT_BASH_PATH",
-                "D:\\produce\\Git\\bin\\bash.exe",
+                "",
             )
 
     @classmethod
